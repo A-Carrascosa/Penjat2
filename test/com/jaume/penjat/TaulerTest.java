@@ -1,4 +1,4 @@
-package test;
+package com.jaume.penjat;
 
 import com.jaume.penjat.Tauler;
 import org.junit.jupiter.api.BeforeEach;

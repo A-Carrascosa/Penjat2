@@ -1,17 +1,17 @@
 package com.jaume.penjat;
 
-import java.awt.*;
-import java.awt.event.InputEvent;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 
 public class Util {
 
-
+    /**
+     * 
+     * @param enunciat String importada para imprimir la pregunta
+     * @return Valor introducido
+     */
     public static String makeQuestion(String enunciat){
         String valor = " ";
         try {
@@ -25,6 +25,11 @@ public class Util {
         return valor;
         }
 
+    /**
+     * 
+     * @param cadena String para analizar
+     * @return Booleano que determina si la String 'cadena' es o no numerica
+     */
     public static boolean isNumeric(String cadena){
         try {
             Integer.parseInt(cadena);
